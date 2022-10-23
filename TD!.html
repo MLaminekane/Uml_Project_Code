@@ -7,12 +7,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>TD1</title>
 </head>
-<body class="bg-gray-400 rounded">
-    <h1 class="text-3xl font-bold underline m-12">
-        TD1-UML
-    </h1>
-    <div class="w-2/4 h-96 rounded border-2 border-white flex-col">
-        <h1 class="text-center font-bold text-2xl underline  mt-4">Ajout Prof</h1>
+<body class="flex bg-gray-400 rounded m-4">
+    <div class="w-2/2 h-96 rounded border-2 border-white flex-col">
+        <h1 class="text-center font-bold text-2xl underline mt-4">Ajout Prof</h1>
         <div class="flex-col justify-center mx-12 mt-10">
             <p class="text-white">Nom</p>
             <input class="rounded w-full" type="text" name="" id="" placeholder="nom" >
@@ -33,9 +30,61 @@
             <label for="choix">PHP/SQL</label>
         </div>
         <div class="flex mx-12 justify-evenly mt-6">
-            <button class="rounded border h-6 w-24 bg-gray-100 font-bold">Reset</button>
-            <button class="rounded border h-6 w-24 bg-gray-100 font-bold">Submit</button>
+            <button class="rounded border h-6 w-24 bg-gray-100 font-bold m-2">Reset</button>
+            <button class="rounded border h-6 w-24 bg-gray-100 font-bold m-2">Submit</button>
         </div>
+    </div>
+
+    <div class="w-2/2 h-96 ml-12 p-2 rounded border-2 border-white flex-col">
+        <h1 class="text-center font-bold text-2xl underline mt-4"">Liste Prof</h1>
+        <table class="table-auto mt-6">
+            <thead>
+              <tr>
+                <th class="border border-slate-700">Matricule</th>
+                <th class="border border-slate-700">Nom et Prenom</th>
+                <th class="border border-slate-700">Grade</th>
+                <th class="border border-slate-700">Module</th>
+                <th class="border border-slate-700">Classe</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="border border-slate-700">01</td>
+                <td class="border border-slate-700">lamine kane</td>
+                <td class="border border-slate-700">Licence 2</td>
+                <td class="border border-slate-700">GLRS</td>
+                <td class="border border-slate-700">L2 A</td>
+              </tr>
+              <tr>
+                <td class="border border-slate-700">02</td>
+                <td class="border border-slate-700">mouhamed lamine kane</td>
+                <td class="border border-slate-700">Etudiant Licence 2</td>
+                <td class="border border-slate-700">Medecin</td>
+                <td class="border border-slate-700">Chomage</td>
+              </tr>
+              <tr>
+                <td class="border border-slate-700">03</td>
+                <td class="border border-slate-700"></td>
+                <td class="border border-slate-700"></td>
+                <td class="border border-slate-700"></td>
+                <td class="border border-slate-700"></td>
+              </tr>
+              <tr>
+                <td class="border border-slate-700">04</td>
+                <td class="border border-slate-700"></td>
+                <td class="border border-slate-700"></td>
+                <td class="border border-slate-700"></td>
+                <td class="border border-slate-700"></td>
+              </tr>
+              <tr>
+                <td class="border border-slate-700">05</td>
+                <td class="border border-slate-700"></td>
+                <td class="border border-slate-700"></td>
+                <td class="border border-slate-700"></td>
+                <td class="border border-slate-700"></td>
+              </tr>
+            </tbody>
+          </table>
     </div>
 </body>
 </html>
