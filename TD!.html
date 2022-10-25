@@ -33,7 +33,7 @@
         <div class="flex mx-12 justify-evenly mt-6">
             <button class="rounded border h-6 w-24 bg-gray-100 font-bold m-2">Reset</button>
             <button class="rounded border h-6 w-24 bg-gray-100 font-bold m-2">Submit</button>
-      </div>
+        </div>
     </div>
 
   <div class="w-2/2 h-96 ml-12 p-2 rounded border-2 border-white flex-col">
@@ -290,7 +290,7 @@
     </div>
 
 
-      <div class="w-2/2 h-96 ml-12 p-2 rounded border-2 border-white flex-col">
+      <div class="w-2/2 h-auto ml-12 p-2 rounded border-2 border-white flex-col">
         <h1 class="text-center font-bold text-2xl underline mt-4"">Traitement des Demandes</h1>
         <table class="table-auto mt-6">
             <thead>
@@ -351,10 +351,29 @@
               </tr>
             </tbody>
           </table>
+          <div class="flex flex-col items-center justify-center">
+            <div class="flex">
+              <label class="text-white font-bold text-1xl">Date</label>
+              <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                <svg aria-hidden="true" class="w-8 h-4 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+              </div>
+              <input datepicker type="text" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-24 pl-5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Select">
+            </div>
+                          <div class="flex mx-12 justify-evenly mt-6">
+                <button class="rounded border h-6 w-24 bg-gray-100 font-bold m-2">Reset</button>
+                <button class="rounded border h-6 w-24 bg-gray-100 font-bold m-2">Submit</button>
+            </div>
+          </div>
+          
       </div>
     </div>
-</div>
-    
+  </div>
+
+
+  
+  <div>
+
+  </div>
 <script src="https://unpkg.com/flowbite@1.5.3/dist/datepicker.js"></script>
 </body>
 </html>
