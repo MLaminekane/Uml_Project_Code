@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>TD1</title>
 </head>
-<body class="md:w-32 lg:w-48 bg-gray-400 rounded m-4 flex">
+<body class="md:w-2/4 lg:w-68 bg-gray-400 rounded m-4 flex ">
   <div class="max-w-2xl mx-auto">
+    
     <nav class="border-gray-200">
     <div class="container mx-auto flex flex-wrap items-center justify-between">
         <a href="menu.html" class="flex">
@@ -50,36 +51,39 @@
     </nav>
 </div>
     <div class="flex md:w-32 lg:w-48 bg-gray-400 rounded m-4">
-      <div class="w-2/2 h-96 rounded border-2 border-white flex-col">
-        <h1 class="text-center font-bold text-2xl underline mt-4">Ajout Prof</h1>
-        <div class="flex-col justify-center mx-12 mt-10">
-            <p class="text-white">Nom</p>
-            <input class="rounded w-full" type="text" name="" id="" placeholder="nom" >
-            <p class="text-white">Prenom</p>
-            <input class="rounded w-full" type="text" name="" id="" placeholder="prenom" >
-        </div>
-        <p class="text-2xl ml-12 text-white mt-4">Module:</p>
-        <div class="flex-col text-right mx-12 justify-center ">
-            <input type="checkbox" id="module1" name="module1" class="mr-12">
-            <label for="choix">Java/Flutter</label>
-        </div>
-        <div class="flex-col text-right mx-12 justify-center">
-            <input type="checkbox" id="module2" name="module2" class="mr-1">
-            <label for="choix">Javascript/Python</label>
-        </div>
-        <div class="flex-col text-right mx-12 justify-center">
-            <input type="checkbox" id="module2" name="module2" class="mr-16">
-            <label for="choix">PHP/SQL</label>
-        </div>
-        <div class="flex mx-12 justify-evenly mt-6">
-            <button class="rounded border h-6 w-24 bg-gray-100 font-bold m-2">Reset</button>
-            <button class="rounded border h-6 w-24 bg-gray-100 font-bold m-2">Submit</button>
-        </div>
+        <div class="w-auto h-96 p-2 rounded border-2 border-white flex-col">
+          <h1 class="text-center font-bold text-2xl underline mt-4"">Lister les demandes des etudiants</h1>
+          <table class="table-auto mt-6">
+              <thead>
+                <tr>
+                  <th class="border border-slate-700">Date</th>
+                  <th class="border border-slate-700">Motif</th>
+                  <th class="border border-slate-700">Statut</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="border border-slate-700">lamine kane</td>
+                  <td class="border border-slate-700">Licence 2</td>
+                  <td class="border border-slate-700">GLRS</td>
+                </tr>
+                <tr>
+                  <td class="border border-slate-700">mouhamed lamine kane</td>
+                  <td class="border border-slate-700">Etudiant Licence 2</td>
+                  <td class="border border-slate-700">Medecin</td>
+                </tr>
+                <tr>
+                  <td class="border border-slate-700">mouhamed lamine kane</td>
+                  <td class="border border-slate-700">Etudiant Licence 2</td>
+                  <td class="border border-slate-700">Medecin</td>
+                </tr>
+              </tbody>
+          </table>
     </div>
-
-
+    
 <script src="https://unpkg.com/flowbite@1.5.3/dist/datepicker.js"></script>
 <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
 
-</body>
+
+    </body>
 </html>

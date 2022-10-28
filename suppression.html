@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="md:w-2/4 lg:w-68 bg-gray-400 rounded m-4 flex ">
+    <div class="max-w-2xl mx-auto">
+    
+        <nav class="border-gray-200">
+        <div class="container mx-auto flex flex-wrap items-center justify-between">
+            <a href="menu.html" class="flex">
+                <span class="self-center text-lg font-semibold whitespace-nowrap">L.KANE</span>
+            </a>
+            <div class="hidden md:block w-full md:w-auto" id="mobile-menu">
+            <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
+                <li>
+                    <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0 font-medium flex items-center justify-between w-full md:w-auto">Choisir page <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+                    <div id="dropdownNavbar" class="hidden bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow my-4 w-44">
+                        <ul class="py-1" aria-labelledby="dropdownLargeButton">
+                            <li>
+                                <a href="TD!.html" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Ajout prof</a>
+                            </li>
+                            <li>
+                                <a href="listeprof.html" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Liste prof</a>
+                            </li>
+                            <li>
+                                <a href="creerclasse.html" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Creer CLasse</a>
+                            </li>
+                            <li>
+                                <a href="listerclasse.html" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Lister CLasse</a>
+                            </li>
+                            <li>
+                                <a href="suppression.html" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Demande de Supression </a>
+                            </li>
+                            <li>
+                                <a href="demande.html" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Lister Demande des Etudiants</a>
+                            </li>
+                            <li>
+                                <a href="traitement.html" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Traitements des Demandes</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+    </div>
+    <div class="flex md:w-40 lg:w-50 bg-gray-400 rounded">
+        <div class="w-2/2 h-auto rounded border-2 border-white flex-col">
+          <h1 class="text-center font-bold text-2xl underline mt-2">Objet: Demande de Supression</h1>
+          <label for="" class="text-white text-2xl">Motif: </label>
+          <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">entrer le motif</label>
+          <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Votre motif..."></textarea>
+          <div class="flex mx-12 justify-evenly mt-6">
+              <button class="rounded border h-6 w-24 bg-gray-100 font-bold m-2">Reset</button>
+              <button class="rounded border h-6 w-24 bg-gray-100 font-bold m-2">Submit</button>
+          </div>
+        </div>
+    </div>
+
+
+<script src="https://unpkg.com/flowbite@1.5.3/dist/datepicker.js"></script>
+<script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+
+
+</body>
+</html>
